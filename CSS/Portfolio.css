@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#section1{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#f2f2fa 45%,#3d3d3d 120%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-heading{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#main-paragraph{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+#main-btn{
+    padding: 10px 25px;
+    font-size: 18px;
+    color: white;
+    border-color: transparent;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 255);
+    margin-top: 20px;
+    box-shadow: 0 20px 40px -15px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+#main-btn:hover{
+    color: rgb(0, 0, 255);
+    background-color: white;
+}
+
+
+#background-img{
+    background-image: url(/Images/pexels-lukas-574071-removebg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 50vh 0px;
+
+}
+
+#section2{
+    height: 300vh;
+    background-color: gray;
+
+}
+
+.portfolio-heading{
+    color: black;
+    font-size: 55px;
+    text-align: center;
+    padding: 100px 0px;
+    background-image: url(/Images/pexels-miguel-á-padriñán-255379.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* #gallery{
+    width: 90%;
+    margin: auto;
+} */
+
+.boxes-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+}
+
+.box-heading{
+    color: white;
+    padding-bottom: 10px;
+}
+
+#box1{
+    padding: 150px 300px;
+    background-image: url(/Images/f717e223-833a-452e-9d28-1909b5d92024.png);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    rotate: 350deg;
+}
+#box2{
+    padding: 150px 300px;
+    background-image: url(/Images/6f74aa43-bb5c-4c4f-8916-d89173696362.png);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    rotate: 350deg;
+
+}
+#box3{
+    padding: 150px 300px;
+    background-image: url(/Images/bdeef3b4-ac44-4be2-928d-c752410a5cdd.png);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    rotate: 350deg;
+
+}
+#box4{
+    padding: 150px 300px;
+    background-image: url(/Images/1d349abd-fe97-46ec-8093-68d69ee2c91d.png);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    rotate: 350deg;
+
+}
+
+#box5{
+    padding: 150px 300px;
+    background-image: url(/Images/87b29612-bb12-4d1c-8e5c-9fd1a2c78e69.png);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    rotate: 350deg;
+
+}
+#box6{
+    padding: 150px 300px;
+    background-image: url(/Images/f745062a-105a-4c22-95e7-cc31230d633b.png);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    rotate: 350deg;
+
+}
