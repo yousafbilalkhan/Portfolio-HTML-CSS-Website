@@ -60,7 +60,7 @@ nav ul li a {
 
 #section1 {
     height: 120vh;
-    background-image: url(/Images/pexels-lukas-574070.jpg);
+    background-image: url(Images/pexels-lukas-574070.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@ nav ul li a {
     color: white;
     display: flex;
     align-items: center;
-    background-image: url(/Images/pexels-kevin-ku-577585.jpg);
+    background-image: url(Images/pexels-kevin-ku-577585.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
